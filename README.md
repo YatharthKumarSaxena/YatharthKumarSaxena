@@ -41,11 +41,20 @@
 </p>
 
 <p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yatharthkumarsaxena&show_icons=true&locale=en&layout=compact" alt="yatharthkumarsaxena" />
+  <img align="left" 
+  src="https://github-readme-stats.vercel.app/api/top-langs?username=yatharthkumarsaxena&show_icons=true&locale=en&layout=compact&cache_seconds=1800" 
+  alt="yatharthkumarsaxena" />
 </p>
+
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&locale=en" alt="yatharthkumarsaxena" />
+  <img align="center" 
+  src="https://github-readme-stats.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&locale=en&cache_seconds=1800" 
+  alt="yatharthkumarsaxena" />
 </p>
+
 <p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yatharthkumarsaxena&" alt="yatharthkumarsaxena" />
+  <img align="center" 
+  src="https://streak-stats.demolab.com/?user=yatharthkumarsaxena&cache_seconds=1800" 
+  alt="yatharthkumarsaxena" />
 </p>
+
