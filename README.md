@@ -46,7 +46,7 @@
 </p>
 
 <p>
-  <img align="center" 
+  <img align="center"
   src="https://github-readme-stats-sigma-five.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&locale=en" />
 </p>
 
