@@ -52,7 +52,7 @@
 
 <p>
   <img align="center" 
-  src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena" />
+  src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena" /> 
 </p>
 
 
