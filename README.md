@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yatharth Kumar Saxena</h1>
-<h3 align="center">A passionate Software Engineer</h3>
+<h3 align="center">A passionate Software Engineer </h3>
 
 <img align="right" alt="coding" width="400" src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 
