@@ -127,6 +127,7 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 </p>
 
 ---
+---
 
 ## 📊 GitHub Analytics
 
@@ -137,6 +138,39 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 <p align="center">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatharthkumarsaxena&theme=github_dark"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatharthkumarsaxena&theme=github_dark"/>
+</p>
+
+---
+
+## 📦 Language-wise Lines of Code (LOC)
+
+<!--START_SECTION:code_stats-->
+
+```text
+📦 Repository Statistics
+
+Loading...
+```
+
+<!--END_SECTION:code_stats-->
+
+---
+
+## 📈 GitHub Stats
+
+<p>
+  <img align="left"
+  src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=yatharthkumarsaxena&show_icons=true&locale=en&layout=compact" />
+</p>
+
+<p>
+  <img align="center"
+  src="https://github-readme-stats-sigma-five.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&locale=en" />
+</p>
+
+<p>
+  <img align="center"
+  src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena" />
 </p>
 
 ---
