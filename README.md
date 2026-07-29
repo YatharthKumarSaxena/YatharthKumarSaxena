@@ -118,28 +118,19 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 
 Language             Repos         LOC
 ----------------------------------------
-JavaScript              16     283,684
-JSON                    12      90,535
+JavaScript              15     283,684
 TypeScript               1      45,369
 C++                     11      30,099
 CSS                      4      14,086
 HTML                     4       6,764
-Python                   4       5,756
+Python                   4       5,776
 Java                     4       3,867
-Pug                      1       1,097
 Shell                    5         504
 Assembly                 1         442
 SQL                      2         430
-Jupyter Notebooks        1         358
-C                        5         100
-Makefile                 1          32
-Batch                    1          29
-YAML                     1          16
-Dockerfile               1           8
-TOML                     2           4
-C Header                 1           1
+C                        4         100
 ----------------------------------------
-TOTAL                   78     483,181
+TOTAL                   55     391,121
 ```
 
 <!--END_SECTION:code_stats-->
