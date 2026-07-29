@@ -13,7 +13,7 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 
 ## 🚀 About Me
 
-- 🎓 3rd Year Computer Engineering Undergraduate at ZHCET, Aligarh Muslim University
+- 🎓 Final Year Computer Engineering Undergraduate at ZHCET, Aligarh Muslim University
 
 - 💻 Interested in Backend Engineering, Microservices Architecture, and System Design
 
