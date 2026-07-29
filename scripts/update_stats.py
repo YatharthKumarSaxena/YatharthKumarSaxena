@@ -4,6 +4,22 @@ import subprocess
 import tempfile
 import requests
 
+IGNORE_LANGUAGES = {
+    "JSON",
+    "YAML",
+    "TOML",
+    "Dockerfile",
+    "Makefile",
+    "C Header",
+    "Pug",
+    "Jupyter Notebooks",
+    "Markdown",
+    "Text",
+    "INI",
+    "XML",
+    "CSV",
+    "Batch",
+}
 USERNAME = os.environ["GITHUB_USERNAME"]
 TOKEN = os.environ["GITHUB_TOKEN"]
 
@@ -94,14 +110,20 @@ for repo in repos:
         counted_languages = set()
 
         for language, values in data.items():
-
+        
             if language == "Total":
                 continue
-
+        
+            if language in IGNORE_LANGUAGES:
+                continue
+        
             code = values.get("code", 0)
-
+        
+            if code == 0:
+                continue
+        
             language_stats[language]["loc"] += code
-
+        
             if language not in counted_languages:
                 language_stats[language]["repos"] += 1
                 counted_languages.add(language)
