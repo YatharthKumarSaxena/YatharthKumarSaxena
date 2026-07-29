@@ -2,8 +2,9 @@ name: Update Code Statistics
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -13,41 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Install GitHub CLI
-        run: |
-          sudo apt update
-          sudo apt install gh -y
-
-      - name: Install Rust
-        uses: dtolnay/rust-toolchain@stable
-
-      - name: Install Tokei
-        run: cargo install tokei
-
-      - name: Clone all public repositories
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: yatharthkumarsaxena
-        run: |
-          mkdir repos
-          cd repos
-
-          gh repo list $USERNAME --limit 100 --json name -q '.[].name' | while read repo; do
-            echo "Cloning $repo"
-            git clone https://x-access-token:$GH_TOKEN@github.com/$USERNAME/$repo.git
-          done
-
-      - name: Generate Statistics
-        run: python3 scripts/update_stats.py
-
-      - name: Commit Changes
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-
-          git add README.md
-          git diff --cached --quiet || git commit -m "Update LOC statistics"
-          git push
+      - run: echo "Workflow is working!"
