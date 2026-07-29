@@ -65,3 +65,49 @@ for repo in repos:
     )
 
 print("All repositories cloned successfully.")
+
+import json
+from collections import defaultdict
+
+language_stats = defaultdict(lambda: {"loc": 0, "repos": 0})
+
+for repo in repos:
+
+    repo_path = os.path.join(workspace, repo["name"])
+
+    print(f"Analyzing {repo['name']}...")
+
+    try:
+
+        output = subprocess.check_output(
+            [
+                "tokei",
+                repo_path,
+                "--output",
+                "json"
+            ],
+            text=True
+        )
+
+        data = json.loads(output)
+
+        counted_languages = set()
+
+        for language, values in data.items():
+
+            if language == "Total":
+                continue
+
+            code = values.get("code", 0)
+
+            language_stats[language]["loc"] += code
+
+            if language not in counted_languages:
+                language_stats[language]["repos"] += 1
+                counted_languages.add(language)
+
+    except Exception as e:
+
+        print("Error:", repo["name"], e)
+
+print(language_stats)
