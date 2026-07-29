@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Yatharth Kumar Saxena</h1> 
+<h1 align="center">Hi 👋, I'm Yatharth Kumar Saxena</h1>
 
 <h3 align="center">
-Backend Engineer focused on Microservices, System Design, and Scalable Backend Architecture 
+Backend Engineer focused on Microservices, System Design, and Scalable Backend Architecture
 </h3>
 
 <img align="right" alt="coding" width="400"
@@ -14,9 +14,7 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 ## 🚀 About Me
 
 - 🎓 Final Year Computer Engineering Undergraduate at ZHCET, Aligarh Muslim University
-
 - 💻 Interested in Backend Engineering, Microservices Architecture, and System Design
-
 - ⚙️ Currently building scalable backend systems using Node.js, Redis, MongoDB, and Express.js
 
 - 🔐 Built production-oriented systems including:
@@ -39,10 +37,10 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 <h3 align="left">Connect with me:</h3>
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/yatharth-kumar-saxena" target="blank">
+  <a href="https://www.linkedin.com/in/yatharth-kumar-saxena" target="_blank">
     <img align="center"
     src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-    alt="yatharth kumar saxena"
+    alt="LinkedIn"
     height="30"
     width="40" />
   </a>
@@ -54,95 +52,64 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 
 <p align="left">
 
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
-    alt="c"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
-    alt="cplusplus"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-    alt="java"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://www.java.com" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-    alt="python"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://www.python.org" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
-    alt="nodejs"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://nodejs.org" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
-    alt="express"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://expressjs.com/" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
-    alt="mongodb"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://redis.io/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/redis/redis-icon.svg"
-    alt="redis"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://redis.io/" target="_blank" rel="noreferrer">
+<img src="https://www.vectorlogo.zone/logos/redis/redis-icon.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-    alt="git"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/>
+</a>
 
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
-    alt="linux"
-    width="40"
-    height="40" />
-  </a>
+<a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40"/>
+</a>
 
 </p>
 
 ---
----
 
-## 📊 GitHub Analytics
+# 📊 GitHub Analytics
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatharthkumarsaxena&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatharthkumarsaxena&theme=github_dark" />
 </p>
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatharthkumarsaxena&theme=github_dark"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatharthkumarsaxena&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatharthkumarsaxena&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatharthkumarsaxena&theme=github_dark" />
 </p>
 
 ---
 
-## 📦 Language-wise Lines of Code (LOC)
+# 📦 Language-wise Lines of Code (LOC)
 
 <!--START_SECTION:code_stats-->
 
@@ -156,48 +123,12 @@ Loading...
 
 ---
 
-## 📈 GitHub Stats
+# 📈 GitHub Statistics
 
-<p>
-  <img align="left"
-  src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=yatharthkumarsaxena&show_icons=true&locale=en&layout=compact" />
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&theme=github_dark" />
 </p>
 
-<p>
-  <img align="center"
-  src="https://github-readme-stats-sigma-five.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&locale=en" />
-</p>
-
-<p>
-  <img align="center"
-  src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena" />
-</p>
-
----
-
-## 📊 Code Statistics
-
-<!--START_SECTION:code_stats-->
-
-```text
-Loading...
-```
-
-<!--END_SECTION:code_stats-->
-
----
-
-<p>
-  <img align="left"
-  src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=yatharthkumarsaxena&show_icons=true&locale=en&layout=compact" />
-</p>
-
-<p>
-  <img align="center"
-  src="https://github-readme-stats-sigma-five.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&locale=en" />
-</p>
-
-<p>
-  <img align="center"
-  src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena" />
+<p align="center">
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena&theme=github-dark" />
 </p>
