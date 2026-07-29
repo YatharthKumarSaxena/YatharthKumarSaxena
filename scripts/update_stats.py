@@ -110,4 +110,66 @@ for repo in repos:
 
         print("Error:", repo["name"], e)
 
-print(language_stats)
+# ---------- Update README ----------
+
+sorted_stats = sorted(
+    language_stats.items(),
+    key=lambda x: x[1]["loc"],
+    reverse=True
+)
+
+table = "📦 Repository Statistics\n\n"
+table += f"{'Language':<18}{'Repos':>8}{'LOC':>12}\n"
+table += "-" * 40 + "\n"
+
+total_loc = 0
+total_repos = 0
+
+for language, values in sorted_stats:
+
+    if values["loc"] == 0:
+        continue
+
+    total_loc += values["loc"]
+    total_repos += values["repos"]
+
+    table += (
+        f"{language:<18}"
+        f"{values['repos']:>8}"
+        f"{values['loc']:>12,}\n"
+    )
+
+table += "-" * 40 + "\n"
+table += (
+    f"{'TOTAL':<18}"
+    f"{total_repos:>8}"
+    f"{total_loc:>12,}\n"
+)
+
+with open("README.md", "r", encoding="utf-8") as f:
+    readme = f.read()
+
+start = "<!--START_SECTION:code_stats-->"
+end = "<!--END_SECTION:code_stats-->"
+
+new_section = (
+    start
+    + "\n\n```text\n"
+    + table
+    + "```\n\n"
+    + end
+)
+
+import re
+
+pattern = re.compile(
+    rf"{re.escape(start)}.*?{re.escape(end)}",
+    flags=re.S,
+)
+
+updated = pattern.sub(new_section, readme)
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(updated)
+
+print("README updated successfully!")
