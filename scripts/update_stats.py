@@ -145,7 +145,7 @@ table += f"{'Language':<18}{'Repos':>8}{'LOC':>12}\n"
 table += "-" * 40 + "\n"
 
 total_loc = 0
-total_repos = 0
+total_repos = len(repos)
 
 for language, values in sorted_stats:
 
@@ -153,7 +153,6 @@ for language, values in sorted_stats:
         continue
 
     total_loc += values["loc"]
-    total_repos += values["repos"]
 
     table += (
         f"{language:<18}"
