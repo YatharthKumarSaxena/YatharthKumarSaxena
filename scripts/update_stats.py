@@ -1,72 +1,67 @@
+import os
+import shutil
 import subprocess
-import re
+import tempfile
+import requests
 
-# Run tokei on all cloned repositories
-output = subprocess.check_output(
-    ["tokei", "repos"],
-    text=True
-)
+USERNAME = os.environ["GITHUB_USERNAME"]
+TOKEN = os.environ["GITHUB_TOKEN"]
 
-lines = output.splitlines()
+HEADERS = {
+    "Authorization": f"Bearer {TOKEN}",
+    "Accept": "application/vnd.github+json"
+}
 
-stats = []
+repos = []
 
-for line in lines:
-    line = line.strip()
+page = 1
 
-    # Skip headers and separators
-    if (
-        line.startswith("Language")
-        or line.startswith("-")
-        or line.startswith("=")
-        or line == ""
-        or line.startswith("Total")
-    ):
-        continue
+while True:
+    url = (
+        f"https://api.github.com/users/{USERNAME}/repos"
+        f"?per_page=100&page={page}&sort=updated"
+    )
 
-    parts = re.split(r"\s+", line)
+    r = requests.get(url, headers=HEADERS)
+    r.raise_for_status()
 
-    # Expected format:
-    # Language Files Lines Code Comments Blanks
-    if len(parts) >= 6:
-        language = parts[0]
-        files = parts[1]
-        code = parts[3]
+    data = r.json()
 
-        # Ignore Markdown and Text
-        if language in ["Markdown", "Text"]:
-            continue
+    if not data:
+        break
 
-        stats.append((language, files, code))
+    repos.extend(data)
+    page += 1
 
-# Build README section
-table = "📦 Repository Statistics\n\n"
-table += "Language           Files      LOC\n"
-table += "────────────────────────────────────\n"
+print(f"Found {len(repos)} repositories.")
 
-for lang, files, loc in stats:
-    table += f"{lang:<16}{files:>6}{loc:>10}\n"
+workspace = tempfile.mkdtemp(prefix="loc_stats_")
 
-# Replace README section
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
+print("Workspace:", workspace)
 
-pattern = re.compile(
-    r"<!--START_SECTION:code_stats-->.*?<!--END_SECTION:code_stats-->",
-    re.DOTALL,
-)
+for repo in repos:
 
-replacement = (
-    "<!--START_SECTION:code_stats-->\n\n"
-    "```text\n"
-    + table +
-    "\n```\n\n"
-    "<!--END_SECTION:code_stats-->"
-)
+    name = repo["name"]
 
-updated = pattern.sub(replacement, readme)
+    clone_url = (
+        f"https://x-access-token:{TOKEN}"
+        f"@github.com/{USERNAME}/{name}.git"
+    )
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(updated)
+    target = os.path.join(workspace, name)
 
-print("README updated successfully.")
+    print("Cloning", name)
+
+    subprocess.run(
+        [
+            "git",
+            "clone",
+            "--depth",
+            "1",
+            clone_url,
+            target
+        ],
+        check=True
+    )
+
+print("All repositories cloned successfully.")
