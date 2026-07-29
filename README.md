@@ -123,14 +123,14 @@ TypeScript               1      45,369
 C++                     11      30,099
 CSS                      4      14,086
 HTML                     4       6,764
-Python                   4       5,776
+Python                   4       5,775
 Java                     4       3,867
 Shell                    5         504
 Assembly                 1         442
 SQL                      2         430
 C                        4         100
 ----------------------------------------
-TOTAL                   55     391,121
+TOTAL                   38     391,120
 ```
 
 <!--END_SECTION:code_stats-->
