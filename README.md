@@ -128,6 +128,31 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 
 ---
 
+## 📊 GitHub Analytics
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatharthkumarsaxena&theme=github_dark"/>
+</p>
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatharthkumarsaxena&theme=github_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatharthkumarsaxena&theme=github_dark"/>
+</p>
+
+---
+
+## 📊 Code Statistics
+
+<!--START_SECTION:code_stats-->
+
+```text
+Loading...
+```
+
+<!--END_SECTION:code_stats-->
+
+---
+
 <p>
   <img align="left"
   src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=yatharthkumarsaxena&show_icons=true&locale=en&layout=compact" />
