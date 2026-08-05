@@ -96,19 +96,6 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 
 ---
 
-# 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatharthkumarsaxena&theme=github_dark" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatharthkumarsaxena&theme=github_dark" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatharthkumarsaxena&theme=github_dark" />
-</p>
-
----
-
 # 📦 Language-wise Lines of Code (LOC)
 
 <!--START_SECTION:code_stats-->
@@ -120,9 +107,9 @@ Language             Repos         LOC
 ----------------------------------------
 JavaScript              15     283,780
 TypeScript               1      45,369
-C++                     11      31,777
+C++                     11      31,590
 CSS                      4      14,086
-Python                   4       6,980
+Python                   4       6,861
 HTML                     4       6,758
 Java                     4       3,867
 Shell                    5         491
@@ -130,19 +117,40 @@ Assembly                 1         442
 SQL                      2         430
 C                        4         100
 ----------------------------------------
-TOTAL                   38     394,080
+TOTAL                   38     393,774
 ```
 
 <!--END_SECTION:code_stats-->
 
 ---
 
+
+# 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatharthkumarsaxena&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatharthkumarsaxena&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatharthkumarsaxena&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatharthkumarsaxena&layout=compact&theme=github_dark" />
+</p>
+
+---
+
 # 📈 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&theme=github_dark" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&theme=github_dark" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena&theme=github-dark" />
+  <img src="https://streak-stats.demolab.com?user=yatharthkumarsaxena&theme=github-dark" />
 </p>
+
+
+---
