@@ -145,12 +145,11 @@ TOTAL                   38     394,080
 # 📈 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&theme=github_dark" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=yatharthkumarsaxena&show_icons=true&theme=github_dark" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=yatharthkumarsaxena&theme=github-dark" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=yatharthkumarsaxena&theme=github-dark" />
 </p>
-
 
 ---
