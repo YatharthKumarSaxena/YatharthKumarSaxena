@@ -19,7 +19,8 @@ src="https://aster.cloud/wp-content/uploads/2022/11/compiling-code.gif">
 
 - 🔐 Built production-oriented systems including:
   - Custom Authentication Service
-  - Requirement Engineering Tool
+  - Custom Admin Panel Service
+  - Software Management Service
   - PulseStream Patient Monitoring Platform
   - Astra AI
 
