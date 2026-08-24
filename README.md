@@ -111,13 +111,15 @@ C++                     11      34,023
 CSS                      4      14,086
 Python                   4       8,525
 HTML                     4       6,758
+C                        5       4,561
 Java                     4       3,867
 Shell                    5         491
 Assembly                 1         442
 SQL                      2         430
-C                        4         100
+Lex                      1         310
+Happy                    1          53
 ----------------------------------------
-TOTAL                   38     397,871
+TOTAL                   39     402,695
 ```
 
 <!--END_SECTION:code_stats-->
