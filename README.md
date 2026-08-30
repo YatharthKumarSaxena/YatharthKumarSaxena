@@ -108,9 +108,9 @@ Language             Repos         LOC
 ----------------------------------------
 JavaScript              15     283,780
 TypeScript               1      45,369
-C++                     11      34,192
+C++                     11      34,835
 CSS                      4      14,086
-Python                   4       8,630
+Python                   4       9,062
 HTML                     4       6,758
 C                        5       4,561
 Java                     4       3,867
@@ -120,7 +120,7 @@ SQL                      2         430
 Lex                      1         310
 Happy                    1          53
 ----------------------------------------
-TOTAL                   39     402,969
+TOTAL                   39     404,044
 ```
 
 <!--END_SECTION:code_stats-->
