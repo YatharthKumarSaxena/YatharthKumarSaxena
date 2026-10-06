@@ -108,27 +108,28 @@ Language             Repos         LOC
 ----------------------------------------
 JavaScript              17     285,188
 TypeScript               4      47,838
-C++                     12      44,305
+C++                     13      44,657
 Java                     5      20,282
 C#                       1      15,670
-Python                   5      15,320
+Python                   6      15,405
 CSS                      5      14,136
 Go                       1       9,550
+C                        5       8,572
 HTML                     4       6,758
-C                        5       4,625
 C++ Header               1       3,701
+Happy                    1       2,120
 Rust                     1         700
-Happy                    1         499
-Shell                    5         491
+Shell                    6         563
+Lex                      1         477
 SQL                      3         476
 Assembly                 1         442
-Lex                      1         351
 MSBuild                  1         234
+Swift                    1         195
 TSX                      1         190
 CMake                    1          24
 Visual Studio Solution       1          24
 ----------------------------------------
-TOTAL                   43     470,804
+TOTAL                   43     477,202
 ```
 
 <!--END_SECTION:code_stats-->
