@@ -110,8 +110,8 @@ JavaScript              17     285,188
 TypeScript               4      47,838
 C++                     13      44,657
 Java                     5      20,282
+Python                   8      17,465
 C#                       1      15,670
-Python                   6      15,405
 CSS                      5      14,136
 Go                       1       9,550
 C                        5       8,572
@@ -129,7 +129,7 @@ TSX                      1         190
 CMake                    1          24
 Visual Studio Solution       1          24
 ----------------------------------------
-TOTAL                   43     477,202
+TOTAL                   45     479,262
 ```
 
 <!--END_SECTION:code_stats-->
